@@ -44,9 +44,7 @@ Sou apaixonado por transformar ideias complexas em sistemas confiáveis, perform
 ---
 
 ## 📚 Actualmente Estudando
-
-- ☕ **Java moderno com Spring Boot (REST APIs, JPA, Spring Security)**
-- 🧼 **Clean Architecture, Hexagonal Archetecture e boas práticas de arquitetura**
+- 🧼 **Clean Architecture, Hexagonal Archetecture e boas práticas de arquitectura**
 - 🧠 **Design centrado no domínio (DDD) e separação de responsabilidades**
 - 🧪 **Testes automatizados**
 - 🐳 Containerização e deploy com Docker (Dockerfile, Compose, imagens e containers)
