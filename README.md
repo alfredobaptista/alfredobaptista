@@ -1,81 +1,71 @@
-# ✨ Alfredo Fernando Baptista
+<h2 align="left">About Me</h2>
 
-💻 **Desenvolvedor Backend | Java & Spring Boot | Node.js & Express**  
-🎓 **Estudante de Ciências da Computação – Universidade Agostinho Neto (UAN)**  
-🧠 **Entusiasta de Arquitetura de Software, Clean Code e APIs Rest seguras**  
+###
 
-Sou apaixonado por transformar ideias complexas em sistemas confiáveis, performáticos e bem estruturados. Actualmente, me aprofundo em **Java com Spring Boot** e práticas de **Clean Architecture**, buscando excelência no desenvolvimento backend com foco em **modularidade, legibilidade e escalabilidade**.
+<p align="left">- 💻 Desenvolvedor Backend<br>- 🎓 Estudante de Ciências da Computação na @ Universidade Agostinho Neto, Luanda, Angola<br>- 🧠 Entusiasta de Arquitetura de Software<br>- 🧑‍💻Entusiasta de Programação Competitiva</p>
 
----
+###
 
-## 🔍 Áreas de Interesse
+<h2 align="left">Techs</h2>
 
-- ⚙️ Desenvolvimento Backend (Java, Spring Boot, Node.js, Nest.js)
-- 🧭 Arquitectura de Software & Design de APIs REST
-- 🧹 Clean Code & Boas Práticas
-- 🔐 Segurança e autenticação de APIs
-- 🧑‍💻 Programação Competitiva
+###
 
----
-
-## 🧰 Tecnologias & Ferramentas
-
-### 🖥️ Linguagens
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java) 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript) 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript) 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python) 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql)
-
-### 🧱 Frameworks & Bibliotecas
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js) 
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)  
-![Zod](https://img.shields.io/badge/Zod-1E90FF?style=for-the-badge)
-
-### 🗄️ Banco de Dados & DevOps
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code)
-
----
-
-## 📚 Actualmente Estudando
-- 🧼 **Clean Architecture, Hexagonal Archetecture e boas práticas de arquitectura**
-- 🧠 **Design centrado no domínio (DDD) e separação de responsabilidades**
-- 🧪 **Testes automatizados**
-- 🐳 Containerização e deploy com Docker (Dockerfile, Compose, imagens e containers)
----
-
-## 📊 GitHub Insights
-
-<div align="center">
-
-  <a href="https://github.com/FreddyBF">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=FreddyBF&show_icons=true&theme=gruvbox&hide_title=true&hide_border=true&hide_rank=true" alt="GitHub Stats" />
-  </a>
-
-  <a href="https://github.com/FreddyBF">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreddyBF&layout=compact&theme=gruvbox&hide_border=true&langs_count=6" alt="Top Languages" />
-  </a>
-
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=spring" height="40" alt="spring logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=redis" height="40" alt="redis logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css logo"  />
 </div>
 
----
+###
 
-## 🌐 Conecte-se Comigo
+<h2 align="left">Stats</h2>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/alfredo-baptista-99980a290/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
+###
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=alfredobaptista&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alfredobaptista&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
+
+###
+
+<h2 align="left">Social Media</h2>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/alfredobaptista/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
-  <a href="mailto:baptistaalfredo81@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail">
-  </a>
-  <a href="https://www.dio.me/users/baptistaalfredo81">
-    <img src="https://img.shields.io/badge/DIO.me-30A3DC?style=for-the-badge">
+  <a href="baptistaalfredo81@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
 </div>
+
+###
