@@ -1,3 +1,11 @@
+<h5 align="left">Olá 👋</h5>
+
+###
+
+<p align="left">Sou o Alfredo Baptista.</p>
+
+###
+
 <h2 align="left">About Me</h2>
 
 ###
@@ -10,7 +18,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=spring" height="40" alt="spring logo"  />
