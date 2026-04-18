@@ -1,79 +1,69 @@
-<h5 align="left">Olá 👋</h5>
+<h1 align="center">Olá, sou o Alfredo Baptista 👋</h1>
 
-###
-
-<p align="left">Sou o Alfredo Baptista.</p>
-
-###
-
-<h2 align="left">About Me</h2>
-
-###
-
-<p align="left">- 💻 Desenvolvedor Backend<br>- 🎓 Estudante de Ciências da Computação na @ Universidade Agostinho Neto, Luanda, Angola<br>- 🧠 Entusiasta de Arquitetura de Software<br>- 🧑‍💻Entusiasta de Programação Competitiva</p>
-
-###
-
-<h2 align="left">Techs</h2>
-
-###
+<p align="center">
+  <b>Desenvolvedor Backend | Java & Spring Boot | Estudante de Ciências da Computação</b>
+</p>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=spring" height="40" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=redis" height="40" alt="redis logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css logo"  />
-</div>
-
-###
-
-<h2 align="left">Stats</h2>
-
-###
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=alfredobaptista&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alfredobaptista&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<h2 align="left">Social Media</h2>
-
-###
-
-<div align="left">
   <a href="https://www.linkedin.com/in/alfredobaptista/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="baptistaalfredo81@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  <a href="mailto:baptistaalfredo81@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </div>
 
-###
+---
+
+### 👨‍💻 Sobre Mim
+
+- 💻 Desenvolvo **aplicações backend robustas e escaláveis**, com foco principal no ecossistema **Java** e **Spring Boot** (Spring Security, Spring Data JPA, Resilience4j, etc.).
+- 🏗️ Apaixonado por **arquitectura de software de alta qualidade**: aplico **Clean Architecture** e **Hexagonal Architecture** para criar código limpo, manutenível e testável.
+- 🎓 Estudante do **4º ano** de Ciências da Computação (Licenciatura) na **Universidade Agostinho Neto** — Previsão de formatura: **Dezembro de 2026**.
+- ⚙️ Fortemente interessado em **Integração de Sistemas**, **DevOps** (Docker, CI/CD) e arquitecturas escaláveis, especialmente para o sector financeiro.
+
+---
+
+### 🚀 Projetos em Destaque
+
+- 💳 **[Resilient Payment Gateway](https://github.com/alfredobaptista/resilient-payment-gateway)**
+  Sistema de pagamentos resiliente construído com **Java 21**, **Spring Boot 3** e tolerância a falhas utilizando **Resilience4j**.
+
+- 🏦 **[Banking App](https://github.com/alfredobaptista/bankApplication)**
+  Aplicação bancária com controle de concorrência (**Pessimistic Locking**) e segurança avançada via **JWT + OAuth2**.
+
+- 🎓 **Sistema de Correção de Provas (UAN)**
+  Desenvolvimento colaborativo de um sistema para automação da correção de exames de admissão utilizando **Python** e **OpenCV** (Visão Computacional). _[Repositório Institucional Privado]_
+
+---
+
+### 🛠️ Tecnologias e Ferramentas
+
+<div align="center">
+  <b>Backend & Arquitectura</b><br>
+  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,typescript,express,python,c" height="40" alt="backend" />
+  <br><br>
+  <b>Base de Dados & Infraestructura</b><br>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,git,github" height="40" alt="infra" />
+</div>
+
+---
+
+### 📊 Minhas Estatísticas
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alfredobaptista&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="160" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alfredobaptista&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dracula&hide_border=false" height="160" alt="top langs" />
+</div>
+
+---
+
+### 📫 Como entrar em contato
+
+* **LinkedIn**: [linkedin.com/in/alfredobaptista](https://www.linkedin.com/in/alfredobaptista/)
+* **Email**: baptistaalfredo81@gmail.com
+
+<p align="center">
+  <i>"Código limpo não é só sobre escrever, é sobre pensar bem."</i><br>
+  🚀 Obrigado por visitar o meu perfil!
+</p>
