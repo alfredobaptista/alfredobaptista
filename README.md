@@ -24,7 +24,7 @@
 
 ---
 
-### 🚀 Projetos em Destaque
+### 🚀 Projectos em Destaque
 
 - 💳 **[Resilient Payment Gateway](https://github.com/alfredobaptista/resilient-payment-gateway)**
   Sistema de pagamentos resiliente construído com **Java 21**, **Spring Boot 3** e tolerância a falhas utilizando **Resilience4j**.
@@ -58,7 +58,7 @@
 
 ---
 
-### 📫 Como entrar em contato
+### 📫 Como entrar em contacto
 
 * **LinkedIn**: [linkedin.com/in/alfredobaptista](https://www.linkedin.com/in/alfredobaptista/)
 * **Email**: baptistaalfredo81@gmail.com
