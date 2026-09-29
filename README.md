@@ -119,27 +119,6 @@ Gateway de pagamentos desenvolvido para explorar problemas de **resiliência, co
 * Retry para falhas transitórias
 * Comunicação entre serviços com OpenFeign
 * Persistência transaccional com PostgreSQL
-
----
-
-### 🏦 Banking Application
-
-**Java 21 · Spring Boot · PostgreSQL · Spring Security · JWT · Docker**
-
-<a href="https://github.com/alfredobaptista/bankApplication">
-  github.com/alfredobaptista/bankApplication
-</a>
-
-Aplicação bancária desenvolvida para explorar **segurança, transacções, concorrência e consistência de dados**.
-
-* Operações transaccionais sobre contas
-* Pessimistic Locking
-* Controlo de concorrência
-* Consistência dos saldos
-* Autenticação com JWT
-* Autorização baseada em RBAC
-* PostgreSQL e Docker
-
 ---
 
 ### 🎓 Sistema de Correcção de Exames — UAN
