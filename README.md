@@ -246,11 +246,4 @@ Projecto institucional desenvolvido para a **Universidade Agostinho Neto**, com 
 
 ---
 
-<p align="center">
-  <i>Construindo sistemas Back-End com foco em arquitectura, integração, resiliência e escalabilidade.</i>
-</p>
-
-<p align="center">
-  Luanda, Angola
-</p>
 
