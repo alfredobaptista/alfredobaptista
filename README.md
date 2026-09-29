@@ -39,6 +39,7 @@ Nos meus projectos tenho trabalhado principalmente com:
 * 🛡️ **Resiliência, idempotência e controlo de concorrência**
 * 🧪 **JUnit 5, Mockito & Testcontainers**
 * 📐 **System Design & arquitectura de sistemas**
+* 🟨 **Node.js, TypeScript & Express.js** em projectos complementares
 
 Paralelamente, estou a aprofundar conhecimentos em **MuleSoft, Anypoint Platform e DataWeave**, com foco em **Integração de Sistemas e arquitecturas empresariais**.
 
@@ -93,10 +94,9 @@ Plataforma de notificações **assíncronas e multicanal**, desenvolvida com foc
 * Strategy Pattern para processamento por canal
 * Retry e Dead Letter Queue (DLQ)
 * Idempotência através de `idempotency-key`
-* Integração com provedores externos
 * PostgreSQL para persistência
-* Testes de integração com Testcontainers
-* Observabilidade com Actuator e Micrometer
+* Teste de contexto com Testcontainers (PostgreSQL e RabbitMQ reais)
+* Observabilidade com Actuator
 * Docker e Docker Compose
 
 A arquitectura permite adicionar novos canais e integrações sem alterar a lógica central da aplicação.
@@ -105,7 +105,7 @@ A arquitectura permite adicionar novos canais e integrações sem alterar a lóg
 
 ### 💳 Resilient Payment Gateway
 
-**Java 21 · Spring Boot · PostgreSQL · Redis · Resilience4j · OpenFeign · Docker**
+**Java 21 · Spring Boot · PostgreSQL · Redis · Resilience4j · Docker**
 
 <a href="https://github.com/alfredobaptista/resilient-payment-gateway">
   github.com/alfredobaptista/resilient-payment-gateway
@@ -117,8 +117,28 @@ Gateway de pagamentos desenvolvido para explorar problemas de **resiliência, co
 * Protecção contra transacções duplicadas
 * Circuit Breaker com Resilience4j
 * Retry para falhas transitórias
-* Comunicação entre serviços com OpenFeign
 * Persistência transaccional com PostgreSQL
+
+---
+
+### 💰 Finance API
+
+**Node.js · TypeScript · Express.js · PostgreSQL · Prisma · JWT**
+
+<a href="https://github.com/alfredobaptista/finance-backend">
+  github.com/alfredobaptista/finance-backend
+</a>
+
+API REST desenvolvida para o **Desafio Back-End da Kinvo**, para gestão de transacções financeiras (receitas e despesas), autenticação de utilizadores e consulta de saldo.
+
+**Principais aspectos:**
+
+* Arquitectura limpa (hexagonal): domínio, portas e adaptadores
+* Suporte alternável entre base de dados em memória e PostgreSQL
+* Autenticação com JWT
+* Listagem de transacções com filtros por data e paginação
+* Prisma para acesso tipado à base de dados
+
 ---
 
 ### 🎓 Sistema de Correcção de Exames — UAN
@@ -245,5 +265,4 @@ Projecto institucional desenvolvido para a **Universidade Agostinho Neto**, com 
 </div>
 
 ---
-
 
