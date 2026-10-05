@@ -49,30 +49,20 @@ Paralelamente, estou a aprofundar conhecimentos em **MuleSoft, Anypoint Platform
 
 ### 🔗 URL Shortener
 
-**Java 21 · Spring Boot · PostgreSQL · Redis · RabbitMQ · Docker · k6**
+**Java 21 · Spring Boot 4 · PostgreSQL · Redis · RabbitMQ · Docker · k6**
 
-<a href="https://github.com/alfredobaptista/url-shortener">
-  github.com/alfredobaptista/url-shortener
-</a>
+Implementação própria de um serviço de **encurtamento e redireccionamento de URLs**, desenvolvido a partir de um desafio de **System Design**, com foco em **performance, caching, processamento assíncrono e escalabilidade**.
 
-Implementação própria de um serviço de **encurtamento de URLs**, desenvolvida a partir de um desafio de System Design.
+Construído com **Clean Architecture / Ports & Adapters**, utilizando:
 
-O projecto explora problemas relacionados com **performance, caching, concorrência, processamento assíncrono e escalabilidade**.
+* 🚀 **Redis** para Cache-Aside e rate limiting
+* 📨 **RabbitMQ** para analytics assíncronos
+* 🗄️ **PostgreSQL** para persistência
+* 🔢 **Base62 + SecureRandom** para geração de short codes
+* 🧪 **JUnit 5, Mockito & k6** para testes e benchmarks
+* 🐳 **Docker & Docker Compose** para containerização
 
-**Principais aspectos:**
-
-* Clean Architecture / Ports & Adapters
-* Cache-Aside com Redis
-* Rate limiting distribuído com Redis + Lua
-* Analytics assíncrono com RabbitMQ
-* Consumer assíncrono dedicado para processamento de eventos
-* Geração de códigos Base62
-* Expiração e eliminação de URLs
-* Testes automatizados com JUnit 5 e Mockito
-* Testes de carga com k6
-* Containerização com Docker
-
-O projecto inclui também uma análise do comportamento do sistema sob diferentes níveis de concorrência e uma evolução arquitectural para **escalabilidade horizontal**.
+Os testes de carga atingiram aproximadamente **3.422 req/s com 50 VUs e 0% de erros** em ambiente local.
 
 ---
 
