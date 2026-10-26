@@ -1,11 +1,11 @@
-<h1 align="center">Olá, sou o Alfredo Baptista 👋</h1>
+ <h1 align="center">Olá, sou o Alfredo Baptista 👋</h1>
 
 <p align="center">
   <strong>Backend Developer | Java • Spring Boot • System Design • System Integration</strong>
 </p>
 
 <p align="center">
-  Finalista de Ciências da Computação na Universidade Agostinho Neto 
+  Finalista de Ciências da Computação na Universidade Agostinho Neto
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:baptistaalfredo81@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://leetcode.com/u/freddy_223/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
@@ -24,24 +24,25 @@
 
 ## 👨‍💻 Sobre Mim
 
-Sou **finalista de Ciências da Computação na Universidade Agostinho Neto**, com foco no desenvolvimento **Back-End utilizando Java e Spring Boot**.
+Sou finalista de **Ciências da Computação na Universidade Agostinho Neto**, com foco no desenvolvimento Back-End utilizando **Java e Spring Boot**.
 
-Tenho interesse em construir sistemas que sejam não apenas funcionais, mas também **bem estruturados, resilientes e preparados para crescer**, explorando na prática conceitos de arquitectura de software, sistemas distribuídos, performance e escalabilidade.
+Interesso-me pela construção de sistemas bem estruturados, fiáveis e preparados para crescer. Nos meus projectos, procuro aplicar princípios de arquitectura de software e explorar problemas relacionados com persistência, concorrência, consistência de dados, processamento assíncrono e resiliência.
 
-Nos meus projectos tenho trabalhado principalmente com:
+Tenho trabalhado principalmente com:
 
-* ☕ **Java & Spring Boot**
-* 🔌 **APIs REST & integração entre sistemas**
-* 🗄️ **PostgreSQL, Redis & MongoDB**
-* 📨 **RabbitMQ & processamento assíncrono**
-* 🐳 **Docker & Docker Compose**
-* 🏗️ **Clean Architecture & Ports & Adapters**
-* 🛡️ **Resiliência, idempotência e controlo de concorrência**
-* 🧪 **JUnit 5, Mockito & Testcontainers**
-* 📐 **System Design & arquitectura de sistemas**
-* 🟨 **Node.js, TypeScript & Express.js** em projectos complementares
+- ☕ **Java e Spring Boot** — desenvolvimento de aplicações Back-End.
+- 🔌 **APIs REST** — desenho, implementação e integração de serviços.
+- 🗄️ **PostgreSQL, Redis e MongoDB** — persistência, caching e modelação de dados.
+- 📨 **RabbitMQ** — mensageria e processamento assíncrono.
+- 🏗️ **Clean Architecture, Hexagonal Architecture e SOLID** — organização e separação de responsabilidades.
+- 🛡️ **Idempotência, retries e controlo de concorrência** — tratamento de falhas e operações transaccionais.
+- 🧪 **JUnit 5, Mockito e Testcontainers** — testes e validação de aplicações.
+- 🐳 **Docker e Docker Compose** — containerização e ambientes de desenvolvimento.
+- 🟨 **Node.js, TypeScript e Express.js** — desenvolvimento de APIs em projectos complementares.
 
-Paralelamente, estou a aprofundar conhecimentos em **MuleSoft, Anypoint Platform e DataWeave**, com foco em **Integração de Sistemas e arquitecturas empresariais**.
+Paralelamente, estou a aprofundar conhecimentos em **MuleSoft, Anypoint Platform e DataWeave**, com interesse na integração de sistemas e em arquitecturas empresariais.
+
+Procuro oportunidades para aplicar os meus conhecimentos, colaborar com equipas de desenvolvimento e continuar a evoluir como engenheiro de software.
 
 ---
 
@@ -49,101 +50,99 @@ Paralelamente, estou a aprofundar conhecimentos em **MuleSoft, Anypoint Platform
 
 ### 🔗 URL Shortener
 
-**Java 21 · Spring Boot 4 · PostgreSQL · Redis · RabbitMQ · Docker · k6**
+**Java 21 · Spring Boot · PostgreSQL · Redis · Docker · k6**
 
-Implementação própria de um serviço de **encurtamento e redireccionamento de URLs**, desenvolvido a partir de um desafio de **System Design**, com foco em **performance, caching, processamento assíncrono e escalabilidade**.
+Repositório: [github.com/alfredobaptista/url-shortener](https://github.com/alfredobaptista/url-shortener)
 
-Construído com **Clean Architecture / Ports & Adapters**, utilizando:
+Serviço de encurtamento e redireccionamento de URLs, desenvolvido a partir de um desafio de System Design, com foco em performance, caching, persistência e escalabilidade.
 
-* 🚀 **Redis** para Cache-Aside e rate limiting
-* 📨 **RabbitMQ** para analytics assíncronos
-* 🗄️ **PostgreSQL** para persistência
-* 🔢 **Base62 + SecureRandom** para geração de short codes
-* 🧪 **JUnit 5, Mockito & k6** para testes e benchmarks
-* 🐳 **Docker & Docker Compose** para containerização
+**Principais aspectos:**
 
-Os testes de carga atingiram aproximadamente **3.422 req/s com 50 VUs e 0% de erros** em ambiente local.
+- Clean Architecture e separação entre domínio, aplicação e adaptadores.
+- Redis com estratégia Cache-Aside para optimizar os redireccionamentos.
+- PostgreSQL para persistência dos URLs.
+- Geração de códigos curtos com Base62 e SecureRandom.
+- Testes de carga com k6 para avaliar o comportamento sob concorrência.
+- Docker e Docker Compose para execução do ambiente local.
 
----
+**Benchmark local:** aproximadamente 3.422 req/s, com 50 VUs e 0% de erros no cenário testado.
+
+> Os resultados são específicos do ambiente e da configuração utilizados nos testes, não constituindo uma garantia de desempenho em produção.
 
 ### 🔔 Reliable Notification Platform
 
 **Java 21 · Spring Boot · RabbitMQ · PostgreSQL · Docker · Testcontainers**
 
-<a href="https://github.com/alfredobaptista/notification-platform">
-  github.com/alfredobaptista/notification-platform
-</a>
+Repositório: [github.com/alfredobaptista/notification-platform](https://github.com/alfredobaptista/notification-platform)
 
-Plataforma de notificações **assíncronas e multicanal**, desenvolvida com foco em **arquitectura orientada a eventos, desacoplamento e resiliência**.
+Plataforma de notificações assíncronas e multicanal, desenvolvida para explorar o desacoplamento de componentes, o processamento orientado a eventos e o tratamento de falhas.
 
 **Principais aspectos:**
 
-* Clean Architecture + Hexagonal Architecture
-* Processamento assíncrono com RabbitMQ
-* Canais independentes de Email, SMS e Push
-* Strategy Pattern para processamento por canal
-* Retry e Dead Letter Queue (DLQ)
-* Idempotência através de `idempotency-key`
-* PostgreSQL para persistência
-* Teste de contexto com Testcontainers (PostgreSQL e RabbitMQ reais)
-* Observabilidade com Actuator
-* Docker e Docker Compose
+- Clean Architecture e Ports & Adapters.
+- Processamento assíncrono com RabbitMQ.
+- Organização dos canais de Email, SMS e Push.
+- Strategy Pattern para separar o processamento por canal.
+- Mecanismos de retry e Dead Letter Queue (DLQ).
+- Idempotência através de `Idempotency-Key`.
+- PostgreSQL para persistência dos dados.
+- Testes de integração com Testcontainers.
+- Observabilidade através do Spring Boot Actuator.
+- Containerização com Docker e Docker Compose.
 
-A arquitectura permite adicionar novos canais e integrações sem alterar a lógica central da aplicação.
-
----
+O projecto explora formas de tornar o processamento de notificações mais resiliente e facilitar a extensão da aplicação com novos canais.
 
 ### 💳 Resilient Payment Gateway
 
 **Java 21 · Spring Boot · PostgreSQL · Redis · Resilience4j · Docker**
 
-<a href="https://github.com/alfredobaptista/resilient-payment-gateway">
-  github.com/alfredobaptista/resilient-payment-gateway
-</a>
+Repositório: [github.com/alfredobaptista/resilient-payment-gateway](https://github.com/alfredobaptista/resilient-payment-gateway)
 
-Gateway de pagamentos desenvolvido para explorar problemas de **resiliência, consistência e idempotência** em sistemas transaccionais.
+Projecto Back-End orientado para o estudo de sistemas transaccionais, com foco na prevenção de operações duplicadas e no tratamento de falhas em integrações de pagamento.
 
-* Idempotência utilizando Redis
-* Protecção contra transacções duplicadas
-* Circuit Breaker com Resilience4j
-* Retry para falhas transitórias
-* Persistência transaccional com PostgreSQL
+**Principais aspectos:**
 
----
+- Idempotência para reduzir o risco de processamento duplicado.
+- Redis para suportar mecanismos de controlo de idempotência.
+- PostgreSQL para persistência transaccional.
+- Circuit Breaker com Resilience4j.
+- Retry para tratamento de falhas transitórias.
+- Docker para facilitar a execução do ambiente.
+
+O objectivo é compreender como proteger operações financeiras contra falhas e como melhorar a fiabilidade de serviços que dependem de outros sistemas.
 
 ### 💰 Finance API
 
 **Node.js · TypeScript · Express.js · PostgreSQL · Prisma · JWT**
 
-<a href="https://github.com/alfredobaptista/finance-backend">
-  github.com/alfredobaptista/finance-backend
-</a>
+Repositório: [github.com/alfredobaptista/finance-backend](https://github.com/alfredobaptista/finance-backend)
 
-API REST desenvolvida para o **Desafio Back-End da Kinvo**, para gestão de transacções financeiras (receitas e despesas), autenticação de utilizadores e consulta de saldo.
+API REST desenvolvida no âmbito do Desafio Back-End da Kinvo, para gestão de transacções financeiras, autenticação de utilizadores e consulta de saldo.
 
 **Principais aspectos:**
 
-* Arquitectura limpa (hexagonal): domínio, portas e adaptadores
-* Suporte alternável entre base de dados em memória e PostgreSQL
-* Autenticação com JWT
-* Listagem de transacções com filtros por data e paginação
-* Prisma para acesso tipado à base de dados
-
----
+- Organização inspirada na arquitectura hexagonal.
+- Persistência com PostgreSQL e Prisma.
+- Suporte a uma implementação de persistência em memória.
+- Autenticação com JWT.
+- Consulta de transacções com filtros por data e paginação.
+- Separação de responsabilidades entre domínio e infraestrutura.
 
 ### 🎓 Sistema de Correcção de Exames — UAN
 
 **Python · OpenCV · OMR · APIs REST**
 
-Projecto institucional desenvolvido para a **Universidade Agostinho Neto**, com o objectivo de automatizar a correcção de exames.
+Projecto institucional desenvolvido no contexto da Universidade Agostinho Neto, orientado para a automatização da correcção de exames.
 
-* Processamento de imagens com OpenCV
-* Detecção e interpretação de marcações OMR
-* Automatização da correcção
-* Integração através de APIs REST
-* Exportação dos resultados
+**Principais aspectos:**
 
-> 🔒 Projecto institucional. O código não está disponível publicamente.
+- Processamento de imagens com OpenCV.
+- Detecção e interpretação de marcações através de OMR (*Optical Mark Recognition*).
+- Automatização do processo de correcção.
+- Integração através de APIs REST.
+- Exportação dos resultados.
+
+> 🔒 Projecto institucional. O código-fonte não está disponível publicamente.
 
 ---
 
@@ -151,47 +150,47 @@ Projecto institucional desenvolvido para a **Universidade Agostinho Neto**, com 
 
 <div align="center">
 
-| Backend Engineering |     System Design     |     System Integration    |
-| :-----------------: | :-------------------: | :-----------------------: |
-|      APIs REST      | Sistemas distribuídos | Integração entre sistemas |
-|     Resiliência     |        Caching        |      APIs & serviços      |
-|      Mensageria     |     Escalabilidade    |          MuleSoft         |
-|     Concorrência    |      Performance      |     Anypoint Platform     |
-|     Persistência    |      Event-Driven     |         DataWeave         |
+| Backend Engineering | System Design | System Integration |
+|:---:|:---:|:---:|
+| APIs REST | Sistemas distribuídos | Integração entre serviços |
+| Persistência de dados | Concorrência | APIs empresariais |
+| Testes automatizados | Caching e performance | MuleSoft |
+| Mensageria assíncrona | Resiliência | Anypoint Platform |
+| Arquitectura de software | Escalabilidade | DataWeave |
 
 </div>
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias e Ferramentas
 
 ### Backend
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,nodejs,typescript,express" height="45" alt="Backend technologies" />
+  <img src="https://skillicons.dev/icons?i=java,spring,python,nodejs,typescript,express" height="45" alt="Tecnologias Back-End" />
 </div>
 
-### Bases de Dados & Mensageria
+### Bases de Dados e Mensageria
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,rabbitmq" height="45" alt="Database and messaging technologies" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,rabbitmq" height="45" alt="Bases de dados e mensageria" />
 </div>
 
-### DevOps & Ferramentas
+### DevOps e Ferramentas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,maven,postman" height="45" alt="DevOps and development tools" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,maven,postman" height="45" alt="Ferramentas de desenvolvimento" />
 </div>
 
-### Arquitectura & Qualidade
+### Arquitectura e Qualidade
 
-**Clean Architecture · Ports & Adapters · SOLID · Clean Code · Design Patterns · JUnit 5 · Mockito · Testcontainers**
+**Clean Architecture · Hexagonal Architecture · Ports & Adapters · SOLID · Clean Code · Design Patterns · JUnit 5 · Mockito · Testcontainers**
 
-### Integração
+### Integração de Sistemas
 
 **REST APIs · MuleSoft · Anypoint Platform · DataWeave**
 
-> MuleSoft, Anypoint Platform e DataWeave encontram-se actualmente **em formação**.
+> MuleSoft, Anypoint Platform e DataWeave encontram-se actualmente em formação.
 
 ---
 
@@ -200,42 +199,45 @@ Projecto institucional desenvolvido para a **Universidade Agostinho Neto**, com 
 ### 🎓 Licenciatura em Ciências da Computação
 
 **Universidade Agostinho Neto (UAN)**
-2022 — 2027
+
+2022 — 2027 · Em curso
 
 ### Formação Complementar
 
-* **Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS** — Udemy
-* **MuleSoft 4.X Complete Guide For Beginners — Hands On Projects** — Udemy *(Em curso)*
-* **Docker Essentials** — LINUXtips
-* **Bootcamp Santander — Back-End com Java** — 78h
-* **CI&T — Back-End com Java & AWS** — 72h
-* **RabbitMQ Training Course** — CloudAMQP
+- **Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS** — Udemy.
+- **MuleSoft 4.X Complete Guide For Beginners — Hands On Projects** — Udemy *(em curso)*.
+- **Docker Essentials** — LINUXtips.
+- **Bootcamp Santander — Back-End com Java** — 78 horas.
+- **CI&T — Back-End com Java & AWS** — 72 horas.
+- **RabbitMQ Training Course** — CloudAMQP.
 
 ---
 
 ## 🌱 Actualmente
 
-```text
-🔭 Desenvolvendo projectos Back-End com Java e Spring Boot
-📐 A aprofundar System Design e arquitectura de sistemas
-📨 A explorar sistemas orientados a eventos e mensageria
-⚡ A estudar performance, caching e escalabilidade
-🔗 A aprofundar Integração de Sistemas com MuleSoft
-🌐 A estudar Anypoint Platform e DataWeave
-🐳 A trabalhar com Docker e ambientes conteinerizados
-💳 Interessado em sistemas financeiros e arquitecturas transaccionais
-```
+- 🔭 A desenvolver projectos Back-End com Java e Spring Boot.
+- 📐 A aprofundar arquitectura de software e System Design.
+- 📨 A explorar mensageria, processamento assíncrono e sistemas distribuídos.
+- ⚡ A estudar performance, caching, concorrência e escalabilidade.
+- 🐳 A trabalhar com Docker e ambientes conteinerizados.
+- 🔗 A aprofundar integração de sistemas com MuleSoft e DataWeave.
+- 💳 A explorar desafios de consistência e fiabilidade em sistemas transaccionais.
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=alfredobaptista&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false" height="170" alt="GitHub statistics" />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alfredobaptista&layout=compact&langs_count=6&theme=dracula&hide_border=false" height="170" alt="Top languages" />
-
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=alfredobaptista&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false"
+    height="170"
+    alt="Estatísticas do GitHub"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=alfredobaptista&layout=compact&langs_count=6&theme=dracula&hide_border=false"
+    height="170"
+    alt="Linguagens mais utilizadas"
+  />
 </div>
 
 ---
@@ -243,16 +245,19 @@ Projecto institucional desenvolvido para a **Universidade Agostinho Neto**, com 
 ## 📫 Contactos
 
 <div align="center">
-
-<a href="https://www.linkedin.com/in/alfredobaptista/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="mailto:baptistaalfredo81@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
+  <a href="https://www.linkedin.com/in/alfredobaptista/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:baptistaalfredo81@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://leetcode.com/u/freddy_223/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
 </div>
 
 ---
 
+<p align="center">
+  <i>Construindo, testando e aprendendo — um projecto de cada vez.</i>
+</p>
